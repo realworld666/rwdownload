@@ -1,0 +1,1 @@
+<?php/* * Copyright (c) 2023. * RW::Software * Dave Conley * https://www.rwscripts.com/ */$lang = array(	'nav_reportbugs' => "Report Bugs",)?>

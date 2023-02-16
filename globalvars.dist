@@ -1,0 +1,8 @@
+<?php
+$CONFIG['sqldatabase'] = 'download4';
+$CONFIG['sqlhost'] = 'localhost';
+$CONFIG['sqlpassword'] = '';
+$CONFIG['sqlprefix'] = 'dl_';
+$CONFIG['sqlusername'] = '';
+
+?>

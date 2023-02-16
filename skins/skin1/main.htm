@@ -1,0 +1,54 @@
+<!--
+  ~ Copyright (c) 2023.
+  ~ RW::Software
+  ~ Dave Conley
+  ~ https://www.rwscripts.com/
+  -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html dir="{textdir}">
+<head>
+<meta http-equiv='Content-Type' dir='{textdir}' content='text/html; charset={charset}'>
+{userdb_js}
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-119989-4']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<title>{main_title}</title>
+{style}</head>
+
+<body>
+
+<table width='100%' border='0' cellspacing='0' cellpadding='0' summary='main layout'>
+<tr>
+<td width='115'><img src='{skin_path}/images/topleft.gif' width='115' height='54' alt='v4 Rings Logo'></td>
+<td class='topbg'><img src='{skin_path}/images/rwdlogo.gif' width='172' height='54' alt='RW::Download Logo'></td>
+</tr>
+<tr>
+<td><img src='{skin_path}/images/middleleft.gif' width='115' height='26' alt=''></td>
+<td class='middlebg'><table width='100%' border='0' cellspacing='0' cellpadding='4' summary=''>
+<tr>
+<td>{userbar}</td>
+<td align='right'>{links}</td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td><img src='{skin_path}/images/bottomleft.gif' width='115' height='30' alt=''></td>
+<td>{nav}</td>
+</tr>
+</table>
+{main_content}<br>
+<div align='center'>{copyright}</div>
+</body>
+</html>

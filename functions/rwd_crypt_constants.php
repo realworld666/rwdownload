@@ -1,0 +1,1 @@
+<?php/* * Copyright (c) 2023. * RW::Software * Dave Conley * https://www.rwscripts.com/ */require_once("./functions/rwd_constants.php");define('INSTALL', '0');define('ENCODED', '0');?>
