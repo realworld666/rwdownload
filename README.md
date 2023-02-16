@@ -13,6 +13,10 @@ Upload the project and run `install.php`
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
 
+## Feedback
+
+RW::Download is devleoped by RW::Software. You can find my home page at https://www.rwscripts.com
+
 ## License
 
 [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.en.html)
